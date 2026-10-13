@@ -2,14 +2,26 @@
 
 This repo contains my solutions to **[Advent of Code](https://adventofcode.com/)** challenges.
 
-Language used : **Python**.
+Language used: **Python**.
 
 ## Structure
 
 ```
-2025/
-├── day01/
-│   ├── 2025-day01.py
-├── day02/
-│   ├── 2025-day02.py
+2015/
+├── 2015-day01.py
+├── 2015-day01-input.txt*
+├── 2015-day02.py
+├── 2015-day02-input.txt*
+└── ...
+2016/
+└── ...
+2017/
+└── ...
+...
 ```
+
+**\*Inputs**
+
+Puzzle input files are **not included** in this repository. Puzzle Inputs are personalized.
+
+To run a solution, put the input file in the same directory as the script, following the format `YYYY-dayDD-input.txt`.
