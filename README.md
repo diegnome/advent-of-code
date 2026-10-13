@@ -20,8 +20,13 @@ Language used: **Python**.
 ...
 ```
 
-**\*Inputs**
+### \*Puzzle Inputs
 
 Puzzle input files are **not included** in this repository. Puzzle Inputs are personalized.
 
 To run a solution, put the input file in the same directory as the script, following the format `YYYY-dayDD-input.txt`.
+
+## Next Steps
+
+- [ ] Include fun visualisations as part of the solutions
+- [ ] APL
