@@ -32,7 +32,23 @@ solution_1 = nice_count
 
 # Solution 2
 
-solution_2 = None
+nice_count = 0
+
+for string in tqdm(input_lines):
+    has_double_pair = False
+    for i in range(1,len(string)-1):
+        if has_double_pair:
+            break
+        pair = string[i]+string[i+1]
+        for j in range(i):
+            if string[j]+string[j+1] == pair and j<=i-2:
+                has_double_pair = True
+    has_sandwich = any([string[i] == string[i+2] for i in range(len(string)-2)])
+    is_nice = has_double_pair and has_sandwich
+    if is_nice:
+        nice_count += 1
+
+solution_2 = nice_count
 
 # Output
 
