@@ -1,4 +1,4 @@
-# Advent of Code - 2015 - Day 01
+# Advent of Code - 2015 - Day 02
 
 # Dependencies
 
